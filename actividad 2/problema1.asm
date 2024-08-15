@@ -6,13 +6,16 @@ M=D
 M=1
 
 (LOOP)
-//CICLO SUMA
+// CICLO SUMA
 @17
 D=M
 D=D+1
-M=M+D
+@17
+M=D
 @LOOP
 0;JMP
 @0
+D=M
+D=D-1
+@0
 M=D
-M=M-1
