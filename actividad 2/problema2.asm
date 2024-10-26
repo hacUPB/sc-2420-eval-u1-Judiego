@@ -1,46 +1,25 @@
-@0
-D=M
+@0              // Cargar el valor de N desde RAM[0]
+D=M             // Guardar el valor de N en D
 
-@1
-M=0
+@numero         // Contador
+M=D             // Asignar el valor de N a la posición de número
 
-@2
-M=0
+@suma           // Acumulador
+M=0             // Inicializar suma en cero
 
-(LOOP_START)
-// Cargar índice en D
-@2
-D=M
+(LOOP)
+@END            // Comprobar si el contador ha llegado a cero
+D;JEQ           // Si el contador es igual a cero, saltar a END
 
-// Comparar índice con N
-@0
-D=D-M
+@suma           // Acceder a la suma
+M=D+M           // Sumar el valor de número a suma
 
-// Saltar al final si índice > N
-@END
-D;JGT
+@numero         // Acceder al contador
+MD=M-1          // Decrementar el contador y guardar el nuevo valor en número
 
-// Comprobar si el número es par
-@2
-D=M
-@CHECK_PARITY
-D=D&1 // D = M % 2
+@LOOP           // Volver al inicio del bucle
+0;JMP           // Repetir el bucle
 
-// Saltar si impar
-@INCREMENT_INDEX
-D;JNE
-
-// Agregar número par a la suma
-@2
-D=M
-@1
-M=M+D
-
-(INCREMENT_INDEX)
-// Incrementar índice
-@2
-M=M+1
-
-// Volver al inicio del bucle
-@LOOP_START
-0;JMP
+(END)
+@END            // Dirección de END
+0;JMP           // Detener el programa
