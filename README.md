@@ -58,70 +58,40 @@ https://lucid.app/lucidspark/b0a724c1-b334-4735-b2bd-ebaa8cd6e4d4/edit?invitatio
 
 4. Profundiza en la CPU de la computadora. Investiga y agrega al mapa los componentes internos de la CPU.
 
-Diferencias arquitectónicas
+Diferencias de arquitecturas
+La Arquitectura de von Neumann es un modelo de diseño de computadoras en el que la unidad de procesamiento central tiene acceso a la memoria principal para almacenar y recuperar datos y programas de forma secuencial.
 
+Es una arquitectura clásica en la que el procesador, la memoria y los dispositivos de entrada/salida se conectan utilizando un bus en común.
+Utiliza una sola memoria para guardar tanto instrucciones como datos.
 
-Arquitectura von Neumann
+La arquitectura de Harvard es simple.
+Al separar la memoria de instrucciones de la memoria de datos, el procesador puede leer y escribir datos al mismo tiempo que ejecuta las instrucciones, lo que puede resultar en un mejor rendimiento.
 
+Arquitectura RISC es un tipo de diseño de instrucciones simplificado.
+Este párrafo contiene instrucciones simples y concisas. Las operaciones se llevan a cabo en registros y por lo general terminan en un solo ciclo de reloj, lo que mejora la eficiencia.
 
+Diseño de instrucciones complejas en arquitectura de computadoras (CISC)
+Se emplea un conjunto de instrucciones avanzado que permite llevar a cabo tareas sofisticadas de manera eficiente en una sola orden, a pesar de que esta acción pueda tomar varios ciclos de reloj.
+La arquitectura de procesamiento paralelo es un sistema que permite realizar múltiples tareas de forma simultánea, agilizando el procesamiento de datos.
 
-Se trata de una arquitectura clásica en la que el procesador, la memoria y los dispositivos de E/S están conectados a través de un bus común.
-Utiliza una única memoria para almacenar instrucciones y datos.
-Arquitectura de Harvard
+Las arquitecturas SIMD y MIMD permiten realizar varias operaciones al mismo tiempo utilizando múltiples unidades de procesamiento.
 
+La arquitectura informática distribuida se refiere a un sistema en el que las distintas partes de un programa o sistema se encuentran en diferentes equipis o dispositivos conectados entre sí.
 
+Las computadoras trabajan en conjunto a través de una red para resolver problemas y compartir recursos y datos.
+La arquitectura multinúcleo es un sistema que usa varios núcleos de procesamiento para realizar tareas de forma simultánea.
 
-Separa físicamente la memoria de instrucciones de la memoria de datos, lo que permite que el procesador lea y escriba datos simultáneamente con las instrucciones de lectura, lo que puede mejorar el rendimiento.
+Un único procesador que contiene varios núcleos de procesamiento, permitiendo ejecutar varios subprocesos simultáneamente y mejorando así el desempeño de aplicaciones multitarea.
 
+La arquitectura de computación cuántica es el diseño y estructura fundamental de los sistemas informáticos que utilizan principios de mecánica cuántica para realizar cálculos.
 
-Arquitectura de conjunto de instrucciones reducido (RISC)
+Se emplean los principios de la mecánica cuántica para procesar información de manera veloz y efectiva, utilizando qubits en vez de los bits convencionales.
+La organización de las redes neuronales.
 
+El cerebro humano es la base principal en la que se apoyan las tecnologías de inteligencia artificial y aprendizaje profundo.
 
+La arquitectura de computación en la nube es un sistema que permite el almacenamiento y acceso a datos y aplicaciones a través de internet, en lugar de depender de servidores locales.
 
-Incluye un conjunto de instrucciones concisas y simplificadas. Las operaciones se realizan en registros y normalmente se completan en un único ciclo de reloj, lo que aumenta la eficiencia.
+Accede de forma remota a tus archivos y programas a través de Internet para una gestión de datos más flexible y escalable.
 
-
-Arquitectura de conjunto de instrucciones complejas (CISC)
-
-
-
-Utiliza un conjunto de instrucciones complejo que puede realizar tareas complejas en una sola instrucción, aunque realizar esta operación puede requerir varios ciclos de reloj.
-Arquitectura de procesamiento paralelo
-
-
-
-Incluye arquitecturas como SIMD (instrucción única, datos múltiples) y MIMD (instrucción múltiple, datos múltiples) que permiten realizar múltiples operaciones simultáneamente, utilizando múltiples unidades de procesamiento.
-
-
-Arquitectura informática distribuida
-
-
-
-Sistemas en los que varias computadoras trabajan juntas a través de una red para resolver problemas complejos y compartir recursos y datos.
-Arquitectura multinúcleo
-
-
-
-Integra múltiples núcleos de procesamiento en un solo procesador, lo que permite la ejecución paralela de múltiples subprocesos y mejora el rendimiento en aplicaciones multitarea.
-
-
-Arquitectura de computación cuántica
-
-
-
-Utiliza los principios de la mecánica cuántica para procesar información de forma muy rápida y eficiente, utilizando qubits en lugar de los tradicionales bits.
-Estructura de redes neuronales.
-
-
-
-Basado en la estructura y función del cerebro humano, se utiliza principalmente en aplicaciones de inteligencia artificial y aprendizaje profundo.
-
-
-Arquitectura de computación en la nube
-
-
-
-Permite el acceso remoto a recursos informáticos y de almacenamiento a través de Internet, facilitando la escalabilidad y flexibilidad en la gestión de datos y aplicaciones.
-
-
-
+# video
