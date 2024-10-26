@@ -1,5 +1,0 @@
-Cuando estuve creando el código para el juego, me topé con varios problemas. Lo primero fue la configuración inicial. Al realizarla no podía hacer nada ya que algo estaba mal a pesar de tener todos los metodos iguales, el programa no quería arrancar. Me aparecían errores relacionados con la creación de la ventana, aunque, después de un par de intentos fallidos, el código comenzó a funcionar sin haber cambiado nada relevante. 
-
-Otro problema fue hacer que el personaje saltara. necesitaba agregar gravedad y una fuerza de salto, pero no lograba implementarlo bien O no saltaba lo suficiente o no volvía a caer. Estuve jugando con los valores de la gravedad y el impulso del salto, pero nada parecía cuadrar al principio. Después de muchas pruebas y errores, logré que el personaje tuviera un movimiento de salto más fluido y realista.
-
-También tuve algunos problemas con las colisiones. El personaje chocaba contra los obstáculos de manera impredecible o, peor aún, a veces los atravesaba por completo. Me costó bastante ajustar las dimensiones y las coordenadas de los rectángulos de colisión para que todo funcionara como debía.

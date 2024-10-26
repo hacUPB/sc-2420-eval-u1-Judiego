@@ -1,0 +1,2 @@
+es una herramienta que permite registrar los cambios o verciones realizados a un proyecto manteniendo un hisotrial de estas y sus modificacion y su importancia esta en que permite realizar seguimiento de cambios,facilita trabajo en equipo y solucion de errores en algun cambio que se le haga al proyecto
+cd: navega al directorio home. ls: muestra el contenido. mkdir: ccrea directorio. cd: entrar al directorio. touch: crear archivo. pwd: verificar ruta. rmdir: verificar ruta.

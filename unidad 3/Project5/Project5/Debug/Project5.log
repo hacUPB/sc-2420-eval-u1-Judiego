@@ -1,6 +1,0 @@
-﻿  Game.c
-C:\Users\USUARIO\source\repos\Project5\Project5\Game.c(97,30): warning C4244: '+=': conversión de 'float' a 'int'; posible pérdida de datos
-  main.c
-  Generando código...
-Debug\Obstacle.obj : warning LNK4042: objeto especificado más de una vez; omitidos los sobrantes
-  Project5.vcxproj -> C:\Users\USUARIO\source\repos\Project5\Debug\Project5.exe
