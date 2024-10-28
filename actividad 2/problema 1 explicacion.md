@@ -1,7 +1,17 @@
 # ejercicio 1
 Escribe un programa que calcule la suma de los primeros N números naturales. El valor de N estará almacenado en RAM[0].
 
-![Descripción de la imagen](C:\Users\User\Downloads\Captura de pantalla 2024-10-26 160809.png)
+@0
+D=M          // Cargar N desde RAM[0]
+@sum
+M=D          // Pensé que podría sumar N a la suma directamente
+(LOOP)
+  D=D-1      // Restar 1 a N, pero no lo almaceno en ningún lugar
+  @sum
+  M=M+D      // Intento sumar N al acumulador
+  @LOOP
+  0;JMP      // Bucle infinito
+
 
 
 
