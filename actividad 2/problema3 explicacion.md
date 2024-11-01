@@ -8,5 +8,5 @@ cometí el error de no asignarlo correctamente a un registro antes de empezar la
 
 Hack no tiene una operación de multiplicación directa, así que tendría que implementar una rutina de multiplicación de manera manual, usando sumas repetitivas o desplazamientos
 
-
+![image](https://github.com/user-attachments/assets/a4d79489-1956-460b-b075-f7d4b718c1c5)
 
